@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Can you guess the secret number?</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>What's the secret number<span class="question-mark">?</span></h1>
+        <div class="secret-number">?</div>
+        <p class="pick">Pick a number between 1 and 10!</p>
+    </header>
+    <main>
+        <section>
+            <input id="inputInput" type="number" class="input-style guess-input" placeholder="0" min="1" max="10" />
+            <button class="button-style check-button">Check!</button>
+        </section>
+        <section class="score-spacing">
+            <p class="message">😅</p>
+            <p class="score">Attempts: <span class="attempts">0</span> </p>
+            <p class="highScore">Best Score: <span class="bestScore">0</span> </p>
+        </section>
+        <section>
+            <button class="button-style reset">Reset!</button>
+        </section>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
